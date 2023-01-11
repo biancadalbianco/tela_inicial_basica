@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    justify-content: center;
+    display: flex;
+}
+header img{
+    max-width: 300px;
+    max-height: 250px;
+    padding-top: 60px;
+}
+.text{
+    float: left;
+    margin-top: 100px;
+    padding-top: 8vw;
+    padding-left: 4vw;
+    width: 450px;
+    height: 210px;
+    overflow: visible;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bold; 
+    line-height: 1px;
+}
+.text p{
+    font-size: 24px;
+}
+.btn1-2 {
+    padding: 10px 35px;
+    font-weight: 500;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .btn-1 {
+    border: 1px solid #7C7B7B;
+    border-radius: 10px;
+    z-index: 1;
+    color: #7C7B7B;
+  }
+
+  aside img{
+    float: right;
+    padding-left: 5vw;
+  }
+  aside .img1{
+    width: auto;
+    padding-top: 10vw;
+    padding-right: 31vw;
+  }
+  .img2{
+    padding-top: 27vw;
+    padding-left: 42.5vw;
+    position: relative;
+    bottom: 1vw;
+  }
+  .img3{
+    padding-left: 69vw;
+    position: relative;
+    bottom: 42vw;
+  }
+.paragrafo{
+    position:relative;
+    bottom: 48vw;
+    padding-left: 4vw;
+    line-height: 0.6vw;
+}
+.paragrafo p{
+ color: #7C7B7B;
+}
